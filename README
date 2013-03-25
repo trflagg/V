@@ -1,0 +1,10 @@
+World of V is an RPG game written in Python using the Django web framework.
+
+Players create a character and then navigate the map while battling monsters and collecting treasure.
+
+It has 3 diffferent django apps:
+
+Vsite - Handles user registration & log in.
+Vgame - Displays map and handles user game interaction.
+Vedit - Map editor.
+

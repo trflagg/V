@@ -1,0 +1,3 @@
+{% for ability in ability_list%}
+<div id='ability_{{ ability }}' class='ability' onClick='abilityClicked("{{ mappable.mappableType }}","{{ mappable.id }}","{{ ability|cut:" " }}");'>{{ ability }}</div>
+{% endfor %}

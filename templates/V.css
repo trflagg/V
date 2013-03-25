@@ -1,0 +1,73 @@
+/* @override http://worldofv.webfactional.com/media/V.css */
+
+body {
+	background-color: #000;
+	color: #fff;
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+div#character {
+	display: inline;
+	width: 20em;
+}
+
+div#character dt {
+	display: block;
+}
+div#character dd {
+	display: inline;
+}
+
+
+#messages {
+	overflow: scroll;
+	height: 100px;
+}
+
+/* @group Map Stuff */
+
+div#map {
+	display: block;
+}
+.mapCurrentContainer {
+	padding: 5px;
+}
+
+.mapCurrent {
+	background-color: #ffffff;
+	
+}
+
+.mapCell {
+	background-color: #aeaeae;
+}
+
+/* @group Map Cells */
+
+.Grass { background-color:green;}
+.Road { background-color:brown;}
+.River { background-color:blue;}
+.Church { background-color: lightgrey;}
+.House { background-color: lightgrey;}
+.Shop { background-color: lightgrey;}
+.Forest { background-color:darkgreen;}
+
+/* @end */
+.Darkness { background-color:darkgrey;}
+
+.monster {
+	color: red;
+}
+.mapTable {
+	text-align: left;
+	border-spacing: 5px;
+}
+
+div#map TD {
+	width: 250px;
+	height: 100px;
+	vertical-align: top;
+}
+
+/* @end */
+

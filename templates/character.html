@@ -1,0 +1,26 @@
+<h2>{{ avatar.name }}</h2> of {{ avatar.clan.name }}
+<dl>
+	<dt>level</dt>
+	<dd>{{ avatar.level }}</dd>
+	<dt>hp</dt>
+	<dd>{{avatar.hp}} / {{avatar.maxHp}}</dd>
+	<dt>ap</dt>
+	<dd>{{avatar.ap}} / {{avatr.maxAp}}</dd>
+</dl>
+<dl>
+	<dt>strength</dt>
+	<dd>{{avatar.stats.strength}}</dd>
+	<dt>toughness</dt>
+	<dd>{{avatar.stats.toughness}}</dd>
+	<dt>will power</dt>
+	<dd>{{avatar.stats.willPower}}</dd>
+	<dt>intuition</dt>
+	<dd>{{avatar.stats.intuition}}</dd>
+</dl>
+<dl>
+	{% for slot,equipment in equip_dict.items %}
+	<dt>{{slot}}</dt>
+	<dd>{% firstof equipment.0.name "None" %}</dd>
+	{% endfor %}
+</dl>
+

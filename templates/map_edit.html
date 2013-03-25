@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block content %}
+<script>
+function mapCellSubmit(x,y) {
+	
+	type = $("select#mapType" + x + y)
+	region = $("select#mapRegion" + x + y)
+
+	$.post("/edit/map/", {x: x, y:y, type:type.val(), region:region.val()});
+	//$.post("/map/edit/", { mappableType: mappableType, id: mappableId, ability: ability }, 
+	//					function(data) { $("#ability_results").html(data);} );
+	
+}
+</script>
+<TABLE BORDER=1>
+
+{% for x in mList %}
+<TR>
+{% for y in x %}
+<TD>{{ y }}</TD>
+{% endfor %}
+</TR>
+{% endfor %}
+</TABLE>
+{% endblock %}

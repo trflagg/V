@@ -1,0 +1,182 @@
+{% extends "base.html" %}
+
+{% block javascript %}
+<script src="http://worldofv.webfactional.com/media/jquery.corners.js"></script>
+{% endblock %}
+
+{% block content %}
+<script type="text/javascript">
+
+//Global variables
+currentMappableType = "";
+currentMappableId = "";
+lastAction = "";
+
+/*********************/
+/*  Init Functions   */
+/*********************/
+$(function() {
+	newPage();
+});
+
+function newPage() {
+	newMap();
+	loadMessages();
+	loadCharacter();
+}
+
+function newMap() {
+	resetData();
+	resetInfo();
+	loadMap();
+}
+
+/**********************/
+/*  Reset Functions   */
+/**********************/
+function resetData() {
+	currentMappableType = "";
+	currentMappableId = "";
+	lastAction = "";
+}
+
+//empty out info and the actions
+function resetInfo() {
+	$("#info").hide();
+	$("#info").empty();
+	$("#ability").hide();
+	$("#ability").empty();
+}
+
+/*********************/
+/*  Load Functions   */
+/*********************/
+
+//request the map from the server
+function loadMap() {
+	$.ajax({
+		type:"GET",
+		url:"map/",
+		dataType:"html",
+		success: handleMapLoadSuccess
+	});
+}
+function handleMapLoadSuccess(data) {
+	$('#map').html(data);
+	
+	postMapShow();
+}
+
+function loadMessages() {
+	$("#messages").load("messages/");
+}
+
+function loadInfo() {
+	$("#info").load("/v/map/info/"+currentMappableType+"/"+currentMappableId + "/");
+	$("#info").show();
+}
+
+function loadCharacter() {
+	$("#character").load("/v/map/character/")
+}
+	
+/**********************/
+/*  Click Functions   */
+/**********************/
+function mapCellClicked(x,y) {
+
+	preMapClicked();
+
+	postAbility({
+		deltaX:x,
+		deltaY:y,
+		ability:'Move'
+	});	
+}
+
+function mappableClicked(mappableType, id) {
+	currentMappableType = mappableType;
+	currentMappableId = id;
+	loadInfo();
+}
+
+function abilityClicked(mappableType, id, ability) {
+	currentAbility = ability;
+	postAbility({
+		mappableType:mappableType, 
+		id:id, 
+		ability:ability
+	});
+}
+
+/**********************/
+/*  Map Display       */
+/**********************/
+function preMapClicked() {
+}
+
+function postMapShow() {
+	//round the corners
+  	$('.mapCellTitle').corners();
+  	$('.mapCurrentContainer').corners();
+	$('.mapCell').corners();
+}
+
+/********************************/
+/*  Ability Perform Functions   */
+/********************************/
+
+function abilityFormSubmit(mappableType, mappableId, ability) {
+	//for each input in the form, add to post data
+	dataString = ""
+	$("#abilityForm").find("input:not([type=button])").each(function(i) {
+		 //alert(i + "_" + this.value + "_" + this.name);
+		dataString = dataString + this.name + "=" + this.value + "&"
+	});
+	dataString = dataString.substr(0,dataString.length-1);
+	//add sent data
+	dataString = dataString + "&mappableType=" + mappableType
+	dataString = dataString + "&id=" + mappableId
+	dataString = dataString + "&ability=" + ability
+	//alert(dataString);
+	$("#abilityForm").html("");
+	postAbility(dataString);
+}
+
+function postAbility(givenData) {
+	$.ajax({
+		type:"POST",
+		url:"ability/",
+		dataType:"json",
+		data:givenData,
+		success: handleAbilityReply
+	});
+}
+	
+function handleAbilityReply(reply) {
+	if (reply.map == true) {
+		loadMap();
+	}
+	if (reply.messages == true) {
+		loadMessages();
+	}
+	if (reply.character == true) {
+		loadCharacter();
+	}
+	if (reply.info == true) {
+		loadInfo();
+	}
+	if (reply.ability_text != "") {
+		$("#ability").html(reply.ability_text);		
+		$("#ability").show();
+	}
+}
+
+</script>
+<div id="character"></div>
+<div id="map"></div>
+<div id="info"></div>
+<div id="ability"></div>
+<div id="messages"></div>
+
+{% endblock %}

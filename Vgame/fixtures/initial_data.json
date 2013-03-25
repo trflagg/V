@@ -1,0 +1,1734 @@
+[
+    {
+        "pk": 1, 
+        "model": "Vgame.clan", 
+        "fields": {
+            "tribe": 1, 
+            "name": "Clan1"
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "Vgame.clan", 
+        "fields": {
+            "tribe": 2, 
+            "name": "ToughClan"
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "Vgame.clan", 
+        "fields": {
+            "tribe": 3, 
+            "name": "MagicClan"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 3, 
+            "x": 1, 
+            "mapType": 6, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 2, 
+            "x": 1, 
+            "mapType": 2, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 1, 
+            "x": 1, 
+            "mapType": 5, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 0, 
+            "x": 1, 
+            "mapType": 4, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 5, 
+            "x": 0, 
+            "mapType": 1, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 4, 
+            "x": 0, 
+            "mapType": 5, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 7, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 3, 
+            "x": 0, 
+            "mapType": 6, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 8, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 2, 
+            "x": 0, 
+            "mapType": 2, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 9, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 1, 
+            "x": 0, 
+            "mapType": 6, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 10, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 0, 
+            "x": 0, 
+            "mapType": 1, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 11, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 4, 
+            "x": 1, 
+            "mapType": 5, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 12, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 5, 
+            "x": 1, 
+            "mapType": 4, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 13, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 0, 
+            "x": 2, 
+            "mapType": 2, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 14, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 1, 
+            "x": 2, 
+            "mapType": 2, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 15, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 2, 
+            "x": 2, 
+            "mapType": 2, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 16, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 3, 
+            "x": 2, 
+            "mapType": 2, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 17, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 4, 
+            "x": 2, 
+            "mapType": 2, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 18, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 5, 
+            "x": 2, 
+            "mapType": 2, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 19, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 0, 
+            "x": 3, 
+            "mapType": 5, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 20, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 1, 
+            "x": 3, 
+            "mapType": 6, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 21, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 2, 
+            "x": 3, 
+            "mapType": 2, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 22, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 3, 
+            "x": 3, 
+            "mapType": 4, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 23, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 4, 
+            "x": 3, 
+            "mapType": 5, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 24, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 5, 
+            "x": 3, 
+            "mapType": 1, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 25, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 0, 
+            "x": 4, 
+            "mapType": 1, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 26, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 1, 
+            "x": 4, 
+            "mapType": 4, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 27, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 2, 
+            "x": 4, 
+            "mapType": 2, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 28, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 3, 
+            "x": 4, 
+            "mapType": 5, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 29, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 4, 
+            "x": 4, 
+            "mapType": 1, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 30, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 5, 
+            "x": 4, 
+            "mapType": 1, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 31, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 0, 
+            "x": 5, 
+            "mapType": 1, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 32, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 1, 
+            "x": 5, 
+            "mapType": 1, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 33, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 2, 
+            "x": 5, 
+            "mapType": 2, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 34, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 3, 
+            "x": 5, 
+            "mapType": 1, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 35, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 4, 
+            "x": 5, 
+            "mapType": 3, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 36, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 5, 
+            "x": 5, 
+            "mapType": 3, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 37, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 0, 
+            "x": 6, 
+            "mapType": 1, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 38, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 1, 
+            "x": 6, 
+            "mapType": 3, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 39, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 2, 
+            "x": 6, 
+            "mapType": 3, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 40, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 3, 
+            "x": 6, 
+            "mapType": 3, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 41, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 4, 
+            "x": 6, 
+            "mapType": 3, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 42, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 5, 
+            "x": 6, 
+            "mapType": 1, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 43, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 0, 
+            "x": 7, 
+            "mapType": 3, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 44, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 1, 
+            "x": 7, 
+            "mapType": 3, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 45, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 2, 
+            "x": 7, 
+            "mapType": 2, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 46, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 3, 
+            "x": 7, 
+            "mapType": 1, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 47, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 4, 
+            "x": 7, 
+            "mapType": 1, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 48, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 5, 
+            "x": 7, 
+            "mapType": 1, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 49, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 0, 
+            "x": 8, 
+            "mapType": 1, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 50, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 1, 
+            "x": 8, 
+            "mapType": 1, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 51, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 2, 
+            "x": 8, 
+            "mapType": 2, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 52, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 3, 
+            "x": 8, 
+            "mapType": 1, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 53, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 4, 
+            "x": 8, 
+            "mapType": 1, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 54, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 5, 
+            "x": 8, 
+            "mapType": 7, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 55, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 0, 
+            "x": 9, 
+            "mapType": 1, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 56, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 1, 
+            "x": 9, 
+            "mapType": 7, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 57, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 2, 
+            "x": 9, 
+            "mapType": 2, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 58, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 3, 
+            "x": 9, 
+            "mapType": 7, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 59, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 4, 
+            "x": 9, 
+            "mapType": 7, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 60, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 5, 
+            "x": 9, 
+            "mapType": 7, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 61, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 0, 
+            "x": 10, 
+            "mapType": 7, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 62, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 1, 
+            "x": 10, 
+            "mapType": 7, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 63, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 2, 
+            "x": 10, 
+            "mapType": 2, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 64, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 3, 
+            "x": 10, 
+            "mapType": 7, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 65, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 4, 
+            "x": 10, 
+            "mapType": 7, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 66, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 5, 
+            "x": 10, 
+            "mapType": 7, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 67, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 0, 
+            "x": 11, 
+            "mapType": 8, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 68, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 1, 
+            "x": 11, 
+            "mapType": 8, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 69, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 2, 
+            "x": 11, 
+            "mapType": 8, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 70, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 3, 
+            "x": 11, 
+            "mapType": 8, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 71, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 4, 
+            "x": 11, 
+            "mapType": 8, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 72, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 5, 
+            "x": 11, 
+            "mapType": 8, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 73, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 6, 
+            "x": 0, 
+            "mapType": 8, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 74, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 6, 
+            "x": 1, 
+            "mapType": 8, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 75, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 6, 
+            "x": 2, 
+            "mapType": 8, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 76, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 6, 
+            "x": 3, 
+            "mapType": 8, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 77, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 6, 
+            "x": 4, 
+            "mapType": 8, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 78, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 6, 
+            "x": 5, 
+            "mapType": 8, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 79, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 6, 
+            "x": 6, 
+            "mapType": 8, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 80, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 6, 
+            "x": 7, 
+            "mapType": 8, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 81, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 6, 
+            "x": 8, 
+            "mapType": 8, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 82, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 6, 
+            "x": 9, 
+            "mapType": 8, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 83, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 6, 
+            "x": 10, 
+            "mapType": 8, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 84, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": 6, 
+            "x": 11, 
+            "mapType": 8, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 85, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": -1, 
+            "x": 0, 
+            "mapType": 8, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 86, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": -1, 
+            "x": 1, 
+            "mapType": 8, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 87, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": -1, 
+            "x": 2, 
+            "mapType": 8, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 88, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": -1, 
+            "x": 3, 
+            "mapType": 8, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 89, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": -1, 
+            "x": 4, 
+            "mapType": 8, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 90, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": -1, 
+            "x": 5, 
+            "mapType": 8, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 91, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": -1, 
+            "x": 6, 
+            "mapType": 8, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 92, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": -1, 
+            "x": 7, 
+            "mapType": 8, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 93, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": -1, 
+            "x": 8, 
+            "mapType": 8, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 94, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": -1, 
+            "x": 9, 
+            "mapType": 8, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 95, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": -1, 
+            "x": 10, 
+            "mapType": 8, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 96, 
+        "model": "Vgame.map", 
+        "fields": {
+            "y": -1, 
+            "x": 11, 
+            "mapType": 8, 
+            "mapRegion": 1
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "Vgame.stats", 
+        "fields": {
+            "intuition": 5, 
+            "strength": 5, 
+            "toughness": 5, 
+            "willPower": 5
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "Vgame.stats", 
+        "fields": {
+            "intuition": 0, 
+            "strength": 8, 
+            "toughness": 9, 
+            "willPower": 1
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "Vgame.stats", 
+        "fields": {
+            "intuition": 9, 
+            "strength": 5, 
+            "toughness": 4, 
+            "willPower": 8
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "Vgame.stats", 
+        "fields": {
+            "intuition": 0, 
+            "strength": 2, 
+            "toughness": 3, 
+            "willPower": 0
+        }
+    },  
+    {
+        "pk": 5, 
+        "model": "Vgame.stats", 
+        "fields": {
+            "intuition": 5, 
+            "strength": 8, 
+            "toughness": 8, 
+            "willPower": 3
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "Vgame.monster", 
+        "fields": {
+            "updated": "2008-05-26 18:05:14", 
+            "stats": 4, 
+            "name": "Troll", 
+            "gold": 20, 
+            "created": "2008-05-26 16:53:05", 
+            "hp": 10, 
+            "sp": 0, 
+            "xLocation": 3, 
+            "sex": "male", 
+            "maxSp": 0, 
+            "maxHp": 10, 
+            "monsterType": 1, 
+            "xp": 5, 
+            "yLocation": 3,
+			"agressionLevel": 0
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "Vgame.monster", 
+        "fields": {
+            "updated": "2008-05-26 18:05:14", 
+            "stats": 5, 
+            "name": "Lesser Demon", 
+            "gold": 200, 
+            "created": "2009-01-15 16:53:05", 
+            "hp": 50, 
+            "sp": 0, 
+            "xLocation": 4, 
+            "sex": "male", 
+            "maxSp": 0, 
+            "maxHp": 10, 
+            "monsterType": 2, 
+            "xp": 50, 
+            "yLocation": 4,
+			"agressionLevel": 0
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "Vgame.tribe", 
+        "fields": {
+            "startingStats": 1, 
+            "statProgression": 1, 
+            "startLocation": 22, 
+            "name": "Tribe1", 
+            "homeRegion": 1,
+			"hpPerLevel": "20.00",
+			"spPerLevel": "10.00"
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "Vgame.tribe", 
+        "fields": {
+            "startingStats": 1, 
+            "statProgression": 2, 
+            "startLocation": 29, 
+            "name": "ToughTribe", 
+            "homeRegion": 1,
+			"hpPerLevel": "30.00",
+			"spPerLevel": "0.00"
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "Vgame.tribe", 
+        "fields": {
+            "startingStats": 1, 
+            "statProgression": 3, 
+            "startLocation": 15, 
+            "name": "MagicTribe", 
+            "homeRegion": 1,
+			"hpPerLevel": "10.00",
+			"spPerLevel": "15.00"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "Vgame.npc", 
+        "fields": {
+            "name": "Bill", 
+            "gold": 30, 
+            "created": "2008-05-26 16:53:58", 
+            "xLocation": 3, 
+            "sex": "Male", 
+            "line": "Welcome Young Traveller!", 
+            "yLocation": 3
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "Vgame.avatar", 
+        "fields": {
+            "tribe": 1, 
+            "gold": 80, 
+            "sex": "male", 
+            "ap": 195, 
+            "maxSp": 10, 
+            "xp": 30, 
+            "speed": 1, 
+            "stats": 1, 
+            "knowledge": 1, 
+            "xLocation": 3, 
+            "stamina": 1, 
+            "lp": 0, 
+            "maxHp": 10, 
+            "updated": "2008-05-26 19:11:46", 
+            "fightingAbility": 1, 
+            "hp": 10, 
+            "virtue": 1, 
+            "level": 1, 
+            "clan": 1, 
+            "name": "Test", 
+            "created": "2008-05-26 16:49:49", 
+            "maxAp": 100, 
+            "sp": 10, 
+            "yLocation": 3,
+			"user": 2
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "Vgame.avatar", 
+        "fields": {
+            "tribe": 2, 
+            "gold": 60, 
+            "sex": "male", 
+            "ap": 500, 
+            "maxSp": 0, 
+            "xp": 35, 
+            "speed": 2, 
+            "stats": 2, 
+            "knowledge": 2, 
+            "xLocation": 4, 
+            "stamina": 2, 
+            "lp": 0, 
+            "maxHp": 40, 
+            "updated": "2008-05-26 17:34:27", 
+            "fightingAbility": 2, 
+            "hp": 36, 
+            "virtue": 2, 
+            "level": 1, 
+            "clan": 2, 
+            "name": "TestFighter", 
+            "created": "2008-05-26 16:51:04", 
+            "maxAp": 500, 
+            "sp": 0, 
+            "yLocation": 4,
+			"user":2
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "Vgame.avatar", 
+        "fields": {
+            "tribe": 3, 
+            "gold": 20, 
+            "sex": "female", 
+            "ap": 500, 
+            "maxSp": 20, 
+            "xp": 50, 
+            "speed": 3, 
+            "stats": 3, 
+            "knowledge": 3, 
+            "xLocation": 2, 
+            "stamina": 3, 
+            "lp": 0, 
+            "maxHp": 35, 
+            "updated": "2008-05-26 16:52:11", 
+            "fightingAbility": 3, 
+            "hp": 35, 
+            "virtue": 3, 
+            "level": 1, 
+            "clan": 3, 
+            "name": "TestMagical", 
+            "created": "2008-05-26 16:52:11", 
+            "maxAp": 500, 
+            "sp": 20, 
+            "yLocation": 2,
+			"user":2
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "Vgame.avatar", 
+        "fields": {
+            "tribe": 3, 
+            "gold": 12000, 
+            "sex": "male", 
+            "ap": 500, 
+            "maxSp": 70, 
+            "xp": 50000, 
+            "speed": 14, 
+            "stats": 3, 
+            "knowledge": 45, 
+            "xLocation": 2, 
+            "stamina": 3, 
+            "lp": 0, 
+            "maxHp": 350, 
+            "updated": "2008-05-26 16:52:11", 
+            "fightingAbility": 31, 
+            "hp": 3500, 
+            "virtue": 99, 
+            "level": 16, 
+            "clan": 3, 
+            "name": "Wyrd", 
+            "created": "2008-05-26 16:52:11", 
+            "maxAp": 5000, 
+            "sp": 2000, 
+            "yLocation": 2,
+			"user":1
+        }
+    },
+    {
+        "pk": 1, 
+        "model": "Vgame.maptype", 
+        "fields": {
+            "ap": 3, 
+            "name": "Grass",
+	     "canPlaceMappable": 1
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "Vgame.maptype", 
+        "fields": {
+            "ap": 1, 
+            "name": "Road",
+	     "canPlaceMappable": 1
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "Vgame.maptype", 
+        "fields": {
+            "ap": 8, 
+            "name": "River",
+	     "canPlaceMappable": 1
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "Vgame.maptype", 
+        "fields": {
+            "ap": 4, 
+            "name": "Church",
+	     "canPlaceMappable": 1
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "Vgame.maptype", 
+        "fields": {
+            "ap": 4, 
+            "name": "House",
+	     "canPlaceMappable": 1
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "Vgame.maptype", 
+        "fields": {
+            "ap": 4, 
+            "name": "Shop",
+	     "canPlaceMappable": 1
+        }
+    }, 
+    {
+        "pk": 7, 
+        "model": "Vgame.maptype", 
+        "fields": {
+            "ap": 3, 
+            "name": "Forest",
+	     "canPlaceMappable": 1
+        }
+    }, 
+    {
+        "pk": 8, 
+        "model": "Vgame.maptype", 
+        "fields": {
+            "ap": 10000000, 
+            "name": "Darkness",
+	     "canPlaceMappable": 0
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "Vgame.statprogression", 
+        "fields": {
+            "intuition": "0.60", 
+            "strength": "1.00", 
+            "toughness": "1.20", 
+            "willPower": "0.75"
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "Vgame.statprogression", 
+        "fields": {
+            "intuition": "0.20", 
+            "strength": "1.40", 
+            "toughness": "1.20", 
+            "willPower": "0.50"
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "Vgame.statprogression", 
+        "fields": {
+            "intuition": "1.50", 
+            "strength": "0.75", 
+            "toughness": "0.80", 
+            "willPower": "1.80"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "Vgame.monstertype", 
+        "fields": {
+            "stats": 4, 
+            "maxSp": 0, 
+            "averageXp": 6, 
+            "name": "Troll", 
+            "maxHp": 10,
+			"homeMapType": 1,
+			"averageCount": 4,
+			"amountWaiting": 0
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "Vgame.monstertype", 
+        "fields": {
+            "stats": 5, 
+            "maxSp": 0, 
+            "averageXp": 50, 
+            "name": "Mini-Demon", 
+            "maxHp": 40,
+			"homeMapType": 1,
+			"averageCount": 2,
+			"amountWaiting": 1
+        }
+    }, 
+    {
+        "pk": 33, 
+        "model": "Vgame.message", 
+        "fields": {
+            "timestamp": "2008-05-26 17:32:59", 
+            "message": "The Troll attempted to hit you, but missed.", 
+            "sender": "SYSTEM", 
+            "avatar": 2
+        }
+    }, 
+    {
+        "pk": 34, 
+        "model": "Vgame.message", 
+        "fields": {
+            "timestamp": "2008-05-26 17:33:00", 
+            "message": "The Troll hit you and did 2 damage.", 
+            "sender": "SYSTEM", 
+            "avatar": 2
+        }
+    }, 
+    {
+        "pk": 35, 
+        "model": "Vgame.message", 
+        "fields": {
+            "timestamp": "2008-05-26 17:34:07", 
+            "message": "You hit the Troll and did 8 damage.", 
+            "sender": "SYSTEM", 
+            "avatar": 2
+        }
+    }, 
+    {
+        "pk": 36, 
+        "model": "Vgame.message", 
+        "fields": {
+            "timestamp": "2008-05-26 17:34:07", 
+            "message": "You killed the Troll.", 
+            "sender": "SYSTEM", 
+            "avatar": 2
+        }
+    }, 
+    {
+        "pk": 37, 
+        "model": "Vgame.message", 
+        "fields": {
+            "timestamp": "2008-05-26 17:34:07", 
+            "message": "You gain 5 XP.", 
+            "sender": "SYSTEM", 
+            "avatar": 2
+        }
+    }, 
+    {
+        "pk": 38, 
+        "model": "Vgame.message", 
+        "fields": {
+            "timestamp": "2008-05-26 17:34:07", 
+            "message": "You gain 20 gold.", 
+            "sender": "SYSTEM", 
+            "avatar": 2
+        }
+    }, 
+    {
+        "pk": 39, 
+        "model": "Vgame.message", 
+        "fields": {
+            "timestamp": "2008-05-26 17:34:27", 
+            "message": "You hit the Troll and did 10 damage.", 
+            "sender": "SYSTEM", 
+            "avatar": 2
+        }
+    }, 
+    {
+        "pk": 40, 
+        "model": "Vgame.message", 
+        "fields": {
+            "timestamp": "2008-05-26 17:34:27", 
+            "message": "You killed the Troll.", 
+            "sender": "SYSTEM", 
+            "avatar": 2
+        }
+    }, 
+    {
+        "pk": 41, 
+        "model": "Vgame.message", 
+        "fields": {
+            "timestamp": "2008-05-26 17:34:27", 
+            "message": "You gain 5 XP.", 
+            "sender": "SYSTEM", 
+            "avatar": 2
+        }
+    }, 
+    {
+        "pk": 42, 
+        "model": "Vgame.message", 
+        "fields": {
+            "timestamp": "2008-05-26 17:34:27", 
+            "message": "You gain 20 gold.", 
+            "sender": "SYSTEM", 
+            "avatar": 2
+        }
+    }, 
+    {
+        "pk": 49, 
+        "model": "Vgame.message", 
+        "fields": {
+            "timestamp": "2008-05-26 18:04:45", 
+            "message": "You gain 5 XP.", 
+            "sender": "SYSTEM", 
+            "avatar": 1
+        }
+    }, 
+    {
+        "pk": 50, 
+        "model": "Vgame.message", 
+        "fields": {
+            "timestamp": "2008-05-26 18:04:45", 
+            "message": "You gain 20 gold.", 
+            "sender": "SYSTEM", 
+            "avatar": 1
+        }
+    }, 
+    {
+        "pk": 51, 
+        "model": "Vgame.message", 
+        "fields": {
+            "timestamp": "2008-05-26 18:04:57", 
+            "message": "You hit the Troll and did 7 damage.", 
+            "sender": "SYSTEM", 
+            "avatar": 1
+        }
+    }, 
+    {
+        "pk": 52, 
+        "model": "Vgame.message", 
+        "fields": {
+            "timestamp": "2008-05-26 18:04:57", 
+            "message": "You killed the Troll.", 
+            "sender": "SYSTEM", 
+            "avatar": 1
+        }
+    }, 
+    {
+        "pk": 53, 
+        "model": "Vgame.message", 
+        "fields": {
+            "timestamp": "2008-05-26 18:04:57", 
+            "message": "You gain 5 XP.", 
+            "sender": "SYSTEM", 
+            "avatar": 1
+        }
+    }, 
+    {
+        "pk": 54, 
+        "model": "Vgame.message", 
+        "fields": {
+            "timestamp": "2008-05-26 18:04:57", 
+            "message": "You gain 20 gold.", 
+            "sender": "SYSTEM", 
+            "avatar": 1
+        }
+    }, 
+    {
+        "pk": 55, 
+        "model": "Vgame.message", 
+        "fields": {
+            "timestamp": "2008-05-26 18:05:14", 
+            "message": "You hit the Troll and did 8 damage.", 
+            "sender": "SYSTEM", 
+            "avatar": 1
+        }
+    }, 
+    {
+        "pk": 56, 
+        "model": "Vgame.message", 
+        "fields": {
+            "timestamp": "2008-05-26 18:05:14", 
+            "message": "You killed the Troll.", 
+            "sender": "SYSTEM", 
+            "avatar": 1
+        }
+    }, 
+    {
+        "pk": 57, 
+        "model": "Vgame.message", 
+        "fields": {
+            "timestamp": "2008-05-26 18:05:14", 
+            "message": "You gain 5 XP.", 
+            "sender": "SYSTEM", 
+            "avatar": 1
+        }
+    }, 
+    {
+        "pk": 58, 
+        "model": "Vgame.message", 
+        "fields": {
+            "timestamp": "2008-05-26 18:05:14", 
+            "message": "You gain 20 gold.", 
+            "sender": "SYSTEM", 
+            "avatar": 1
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "Vgame.mapregion", 
+        "fields": {
+            "name": "Open Glade"
+        }
+    },
+    {
+        "pk": 1, 
+        "model": "Vgame.EquipmentType", 
+        "fields": {
+            "name": "Helmet",
+            "slot": "Head",
+	    "stat": "Toughness"
+        }
+    },
+    {
+        "pk": 2, 
+        "model": "Vgame.EquipmentType", 
+        "fields": {
+            "name": "Sword",
+            "slot": "OnHand",
+	    "stat": "Strength"
+        }
+    },
+    {
+        "pk": 3, 
+        "model": "Vgame.EquipmentType", 
+        "fields": {
+            "name": "Staff",
+            "slot": "OnHand",
+	    "stat": "Intuition"
+        }
+    },
+    {
+        "pk": 1, 
+        "model": "Vgame.Material", 
+        "fields": {
+            "name": "Iron",
+	    "modifier": 1
+        }
+    },
+    {
+        "pk": 2, 
+        "model": "Vgame.Material", 
+        "fields": {
+            "name": "Plain Steel",
+	    "modifier": 2
+        }
+    },
+    {
+        "pk": 3, 
+        "model": "Vgame.Material", 
+        "fields": {
+            "name": "Silver lined",
+	    "modifier": 3
+        }
+    },
+    {
+        "pk": 4, 
+        "model": "Vgame.Material", 
+        "fields": {
+            "name": "Rusted",
+	    "modifier": -1
+        }
+    },
+    {
+        "pk": 1, 
+        "model": "Vgame.Equipment", 
+        "fields": {
+            "name": "Iron Helmet",
+	    "equipmentType": 1,
+	    "material": 1,
+	    "modifier": 1,
+            "created": "2008-05-26 16:53:05"
+        }
+    },
+    {
+        "pk": 2, 
+        "model": "Vgame.Equipment", 
+        "fields": {
+            "name": "Silver lined Sword",
+	    "equipmentType": 2,
+	    "material": 3, 
+            "created": "2008-05-26 16:53:05", 
+	    "modifier": 2,
+		"xLocation": 3,
+		"yLocation": 3
+        }
+    },
+    {
+        "pk": 3, 
+        "model": "Vgame.Equipment", 
+        "fields": {
+            "name": "Silver lined staff",
+	    "equipmentType": 3, 
+            "created": "2008-05-26 16:53:05", 
+	    "material": 3,
+	    "modifier": 1
+        }
+    },
+    {
+        "pk": 1, 
+        "model": "Vgame.Item", 
+        "fields": {
+            "name": "street light", 
+            "created": "2008-05-26 16:53:05"
+        }
+    },
+    {
+        "pk": 2, 
+        "model": "Vgame.Item", 
+        "fields": {
+            "name": "hand bag", 
+            "created": "2008-05-26 16:53:05"
+        }
+    },
+    {
+        "pk": 3, 
+        "model": "Vgame.Item", 
+        "fields": {
+            "name": "coffee cup", 
+            "created": "2008-05-26 16:53:05"
+        }
+    },
+    {
+        "pk": 4, 
+        "model": "Vgame.Item", 
+        "fields": {
+            "name": "receipt", 
+            "created": "2008-05-26 16:53:05"
+        }
+    },
+    {
+        "pk": 5, 
+        "model": "Vgame.Item", 
+        "fields": {
+            "name": "wallet", 
+            "created": "2008-05-26 16:53:05"
+        }
+    },
+    {
+        "pk": 6, 
+        "model": "Vgame.Item", 
+        "fields": {
+            "name": "paper plate", 
+            "created": "2008-05-26 16:53:05"
+        }
+    }
+
+]

@@ -1,0 +1,74 @@
+[
+{
+  "pk": 1, 
+  "model": "auth.user", 
+  "fields": {
+   "username": "trflagg", 
+   "first_name": "", 
+   "last_name": "", 
+   "is_active": 1, 
+   "is_superuser": 1, 
+   "is_staff": 1, 
+   "last_login": "2008-08-04 20:49:24", 
+   "groups": [], 
+   "user_permissions": [], 
+   "password": "sha1$8e604$64b692dca4855979afcb3f7bb669b01873428439", 
+   "email": "asdfs@asdf.com", 
+   "date_joined": "2008-07-28 22:22:39"
+  }
+ }, 
+ {
+  "pk": 2, 
+  "model": "auth.user", 
+  "fields": {
+   "username": "test", 
+   "first_name": "", 
+   "last_name": "", 
+   "is_active": 1, 
+   "is_superuser": 0, 
+   "is_staff": 0, 
+   "last_login": "2008-08-06 10:02:42", 
+   "groups": [], 
+   "user_permissions": [], 
+   "password": "sha1$45228$1d104cb59725bec69f373ea4c3881142dae8d519", 
+   "email": "", 
+   "date_joined": "2008-08-06 10:02:42"
+  }
+ },
+ {
+  "pk": 3, 
+  "model": "auth.user", 
+  "fields": {
+   "username": "MyInactive", 
+   "first_name": "", 
+   "last_name": "", 
+   "is_active": 0, 
+   "is_superuser": 0, 
+   "is_staff": 0, 
+   "last_login": "2008-08-06 10:02:42", 
+   "groups": [], 
+   "user_permissions": [], 
+   "password": "sha1$45228$1d104cb59725bec69f373ea4c3881142dae8d519", 
+   "email": "", 
+   "date_joined": "2008-08-06 10:02:42"
+  }
+ },
+ {
+  "pk": 4, 
+  "model": "auth.user", 
+  "fields": {
+   "username": "NoAvatars", 
+   "first_name": "", 
+   "last_name": "", 
+   "is_active": 1, 
+   "is_superuser": 0, 
+   "is_staff": 0, 
+   "last_login": "2008-08-06 10:02:42", 
+   "groups": [], 
+   "user_permissions": [], 
+   "password": "sha1$45228$1d104cb59725bec69f373ea4c3881142dae8d519", 
+   "email": "", 
+   "date_joined": "2008-08-06 10:02:42"
+  }
+ }
+]

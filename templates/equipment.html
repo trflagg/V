@@ -1,0 +1,6 @@
+<dl>
+	{% for slot,equipment in equip_dict.items %}
+	<dt>{{slot}}</dt>
+	<dd>{% firstof equipment.0.name "None" %}</dd>
+	{% endfor %}
+</dl>

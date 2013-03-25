@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block content %}
+Please select your character.<br />
+<form method="POST" action="/v/">
+	<select name="selected_avatar">
+		{% for avatar in avatarList.values %}
+		<option value="{{ avatar.id }}">{{ avatar.name }}</option>
+		{% endfor %}
+	</select>
+	<input type="submit">
+</form>
+{% if newLink %}
+<a href="{% url avatar_new %}">Create new avatar</a>
+{% endif %}
+<br/><br/>
+{{ general_error }}
+{% endblock %}

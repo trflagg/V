@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block content %}
+Welcome to V - Stoneage.<BR>
+Please log in below.<BR>
+ <form method="post" action="">
+    <dl>
+    {% for field in form %}
+        <dt>{{ field.label_tag }}</dt>
+        <dd>{{ field }}</dd>
+        {% if field.help_text %}<dd>{{ field.help_text }}</dd>{% endif %}
+        {% if field.errors %}<dd class="myerrors">{{ field.errors }}</dd>{% endif %}
+    {% endfor %}
+    </dl>
+	<div class="myerrors">{{ error }}<br>{{ form.general_error }}</div>
+    <input type="submit" />
+ </form>
+<BR>
+If you do not have an account <A HREF="{% url accounts_new %}">click here to register</A>.
+<BR>
+{% endblock %}

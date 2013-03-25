@@ -1,0 +1,46 @@
+<table class='mapTable'>
+	<tr>
+		{{ map_html.0 }}
+		{{ map_html.1 }}
+		{{ map_html.2 }}
+	</tr>
+	<tr>
+		{{ map_html.3 }}
+		<td>
+			<div id='map4' class='mapCurrentContainer {{ map.mapType.name}}'>
+				<div class="mapCurrent">
+					<div class="mapCurrentCellTitle {{ map.mapType.name }}" width="100%">{{ map.mapType.name }}</div>
+					<table class='mapCellCharTable'>
+						<tr>
+							<td valign="top" align="left">
+							{% for a in avatar_list %}
+								<span class="mappableName avatar" onclick="mappableClicked('Avatar',{{ a.id }});">{{ a.name }}</span><br />
+						  	{% endfor %}
+						  	{% for m in monster_list %}
+						  		<span class="mappableName monster" onclick="mappableClicked('Monster',{{ m.id }});">{{ m.name }}</span><br />
+						  	{% endfor %}
+						  	{% for n in npc_list %}
+						  		<span class="mappableName npc" onclick="mappableClicked('NPC',{{ n.id }});">{{ n.name }}</span><br />
+						  	{% endfor %}
+						  	{% for e in equipment_list %}
+						  		<span class="mappableName equipment" onclick="mappableClicked('Equipment',{{ e.id }});">{{ e.name }}</span><br />
+						  	{% endfor %}
+						  	{% for i in item_list %}
+						  		<span class="mappableName item" onclick="mappableClicked('Item',{{ i.id }});">{{ i.name }}</span><br />
+						  	{% endfor %}
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</td>
+		
+		{{ map_html.5 }}
+	</tr>
+	<tr>
+		{{ map_html.6 }}	
+		{{ map_html.7 }}
+		{{ map_html.8 }}
+	</tr>
+</table>
+

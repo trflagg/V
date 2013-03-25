@@ -1,0 +1,20 @@
+<TD>
+	<div id='map{{ num }}' class='mapCell' onClick="mapCellClicked{{ movement }};" >
+		<div class="mapCellTitle {{map.mapType.name}}" width="100%">{{map.mapType.name}} ({{ap}})</div>
+		<TABLE class='mapCellCharTable'>
+			<TR>
+				<TD valign="top">
+					{% for a in avatar_list %}
+						{{ a.name }}<BR>
+					{% endfor %}
+					{% for m in monster_list %}
+						{{ m.name }}<BR>
+					{% endfor %}
+					{% for n in npc_list %}
+						{{ n.name }}<BR>
+					{% endfor %}
+				</TD>
+			</TR>
+		</TABLE>
+	</div>
+</TD>

@@ -1,0 +1,9 @@
+{{ mappable.name }} of {{ mappable.clan.name }}<br>
+user: {{ mappable.user.username }}<br>
+level: {{ mappable.level }}<br>
+hp: {{ mappable.hp }} / {{ mappable.maxHp }}<br>
+{% include stats.html %}<BR>
+{% include attributes.html %}<BR>
+{% include equipment.html %}<BR>
+	
+{{ ability_list }}

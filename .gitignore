@@ -1,0 +1,8 @@
+*.pyc
+Design/*
+pm/*
+minlis/*
+*.svn
+*.DS_Store
+V
+media/*
